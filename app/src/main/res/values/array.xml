@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Filtrage">
+        <item>Distance</item>
+        <item>Cuisine</item>
+        <item>Plats</item>
+        <item>Prix</item>
+        <item>Ville</item>
+    </string-array>
+
+    <string-array name="Distance">
+        <item>1Km</item>
+        <item>2Km</item>
+        <item>3Km</item>
+        <item>4Km</item>
+        <item>5Km</item>
+    </string-array>
+
+    <string-array name="Cuisine">
+        <item>Choisir</item>
+        <item>Marocain</item>
+        <item>Français</item>
+        <item>Italien</item>
+        <item>Asiatique</item>
+        <item>Chinois</item>
+        <item>Japonais</item>
+        <item>Indien</item>
+        <item>Espagnol</item>
+        <item>Thaïlandais</item>
+        <item>International</item>
+    </string-array>
+
+    <string-array name="Ville">
+        <item>Choisir</item>
+        <item>Agadir</item>
+        <item>Casablanca</item>
+        <item>Dakhla</item>
+        <item>El Jadida</item>
+        <item>Essaouira</item>
+        <item>Marrakech</item>
+        <item>Rabat</item>
+        <item>Tanger</item>
+        <item>Taroudant</item>
+    </string-array>
+
+</resources>

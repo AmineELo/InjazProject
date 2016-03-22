@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.amineelouattar.injazproject">
+    package="com.example.amineelouattar.injazproject" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -22,13 +22,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-
+        android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,6 +39,14 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyBuYzmh-imrj2xcZgp3BKCRc-6y46Xi5HE" />
 
+        <activity
+            android:name=".Filtrage_simple"
+            android:label="@string/title_activity_filtrage_simple" >
+        </activity>
+        <activity
+            android:name=".informationtrajet.InformationChemin"
+            android:label="@string/title_activity_information_chemin" >
+        </activity>
     </application>
 
 </manifest>

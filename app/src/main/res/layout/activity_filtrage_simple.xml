@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.amineelouattar.injazproject.Filtrage_simple">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Filtrage Par : "
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:typeface="monospace" />
+
+    <Spinner
+        android:id="@+id/type_filtrage"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+    </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/choix_filtrage"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map">
+    </fragment>
+
+</LinearLayout>

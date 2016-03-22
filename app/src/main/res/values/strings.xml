@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Injaz Project</string>
+    <string name="title_activity_filtrage_simple">Filtrage_simple</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_information_chemin">InformationChemin</string>
+    <string name="navigation_view_item_1">Home</string>
+    <string name="navigation_view_item_2">Filtrage Simple</string>
+    <string name="navigation_view_item_3">Filtrage Multiple</string>
+    <string name="navigation_view_item_4">Iténaire vers restaurants</string>
+    <string name="navigation_view_item_5">Navigation Item 5</string>
+    <string name="navigation_view_item_6">Navigation Item 6</string>
+    <string name="navigation_view_category_1">Navigation View Category</string>
+    <string name="navigation_view_category_2">Navigation View Category</string>
+
+
+
 </resources>
